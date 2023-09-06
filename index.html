@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <!-- This is heading part -->
+    <div class="heading">
+      <h6>Let's Play Dice</h6>
+    </div>
+    
+    <div>
+      <h2 id="play"></h2>
+    </div>
+    <!-- containerdiv started -->
+    <div class="container">
+      <div class="player1">
+        <h3 id="p1">Player-1</h3>
+        <span id="score1">0</span>
+        <button class="rollButton" id="button1">Roll Now</button>
+      </div>
+
+      <div class="diceimages">
+        <img src="images/dice 1.png" alt="dice1" name="dice" data-value="1" />
+        <img src="images/dice 2.png" alt="dice2" name="dice" data-value="2" />
+        <img src="images/dice 3.png" alt="dice3" name="dice" data-value="3" />
+        <img src="images/dice 4.png" alt="dice4" name="dice" data-value="4" />
+        <img src="images/dice 5.png" alt="dice5" name="dice" data-value="5" />
+        <img src="images/dice 6.png" alt="dice6" name="dice" data-value="6" />
+      </div>
+      <div class="player2">
+        <h3 id="p2">Player-2</h3>
+        <span id="score2">0</span>
+        <button class="rollButton" id="button2">Roll Now</button>
+      </div>
+    </div>
+    <!-- reset part -->
+    <div>
+      <button id="reset">reset</button>
+    </div>
+    <!-- winner  part -->
+    <div>
+      <h1 id="winnerResult"></h1>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

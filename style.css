@@ -1,0 +1,68 @@
+.container{
+       display: flex;
+}
+img{
+  display: none;
+  
+}
+.heading{
+      text-align: center;
+      font-size: 22px;
+      color: green;
+      margin-top: 50px;
+}
+.container{
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 100px;
+}
+#play{
+     text-align: center;
+}
+
+.player1 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+#p1{
+    margin-bottom: 30px;
+}
+#score1{
+     font-size: xx-large;
+     font-weight: 700;
+}
+.player2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+#p2{
+    margin-bottom: 30px;
+}
+#score2{
+  font-size: xx-large;
+  font-weight: 700;
+}
+.rollButton {
+  order: 3; /* Button is displayed second */
+  margin-top: 30px;
+  padding: 8px 15px;
+  background-color: green;
+  color: white;
+}
+
+#reset{
+
+    padding: 8px 40px;
+    margin-top: 150px;
+    margin-left: 700px;
+    color: black;
+}
+#winnerResult{
+     text-align: center;
+     color:white;
+     background-color:darkslateblue;
+}
